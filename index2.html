@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Survey</title>
+    <meta charset="UTF-8">
+    <link href="style2.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav id="navBar">
+      <a href="index1.html">Home</a>
+      <a href="index2.html">Survey</a>
+      <a href="index3.html">Recipes</a>
+      <a href="index4.html">Images</a>
+    </nav>
+
+    <div id="main">
+      <h1 id="title">Favorite Dessert</h1>
+
+      <form>
+        <fieldset>
+
+          <div class="lineInputs">
+            <label for="name">Name</label>
+            <input type="text">
+          </div>
+
+          <div class="lineInputs">
+            <label for="color">Favorite Color</label>
+            <input type="text">
+          </div>
+
+          <div>
+          <legend>Select the Desserts that You Enjoy</legend>
+
+            <div id="checkboxes">
+              <div>
+                <input id="cookie" type="checkbox" value="cookie">
+                <label for="cookie">Cookie</label>
+              </div>
+
+              <div>
+                <input id="pastry" type="checkbox" value="pastry">
+                <label for="pastry">Pastry</label>
+              </div>
+
+              <div>
+                <input id="pie" type="checkbox" value="pie">
+                <label for="pie">Pie</label>
+              </div>
+
+              <div>
+                <input id="brownie" type="checkbox" value="brownie">
+                <label for="brownie">Brownie</label>
+              </div>
+
+              <div>
+                <input id="cake" type="checkbox" value="cake">
+                <label for="cake">Cake</label>
+              </div>
+
+              <div>
+                <input id="iceCream" type="checkbox" value="iceCream">
+                <label for="iceCream">Ice cream</label>
+              </div>
+            </div>
+          </div>
+
+          <div id="textarea">
+            <label for="favDessert">What is Your Favorite Dessert, and Why?</label>
+            <textarea id="favDessert"></textarea>
+          </div>
+
+          <div id="button">
+          <button type="submit">Submit</button>
+          </div>
+
+
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>

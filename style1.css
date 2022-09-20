@@ -1,0 +1,50 @@
+ html,
+ body {
+     background-color: rgb(255, 225, 236);
+     font-family: sans-serif;
+     margin: 0;
+ }
+
+ * {
+     box-sizing: border-box;
+ }
+
+ #main {
+     margin: 4vw 12vw;
+ }
+
+ #navBar {
+     background-color: black;
+     padding: 1.5vw;
+     display: flex;
+     justify-content: space-evenly;
+ }
+
+ #navBar>a {
+     color: rgb(255, 225, 236);
+     text-decoration: none;
+     font-size: 1.5vw;
+ }
+
+ #title {
+     text-align: center;
+     font-size: 5vw;
+ }
+
+ #textboxes {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     grid-gap: 1vw;
+     margin: 3vw 0;
+     font-size: 1vw
+ }
+
+ .textbox,
+ .header {
+     text-align: center;
+ }
+
+
+ #image>img {
+     border: 2px solid black;
+ }
